@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Loans.com</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container container__header">
+        <a href="#" class="header__logo">Loans.com</a>
+        <nav>
+          <ul class="header__navigation">
+            <li class="navigation__element"><a href="#">Rates & Fees</a></li>
+            <li class="navigation__element"><a href="#">How to apply</a></li>
+            <li class="navigation__element"><a href="#">Questions?</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container container__middle-section">
+        <div class="middle-section__left-column">
+          <h3 class="left-column__small-title">Personal Loan</h3>
+          <h1 class="left-column__big-title">Put your plans into actions.</h1>
+          <div class="left-column__statistics">
+            <div class="statistics__stat statistics__stat--stat1">
+              <p class="stat__text">Online application</p>
+            </div>
+
+            <div class="statistics__stat statistics__stat--stat2">
+              <p class="stat__text s">Up to $50,000</p>
+            </div>
+
+            <div class="statistics__stat statistics__stat--stat3">
+              <p class="stat__text">The money is yours in 48h</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="middle-section__right-column">
+          <h2 class="right-column__title">Let's change your life?</h2>
+          <form class="right-column__form">
+            <label class="form__label" for="name">Full name</label>
+            <input
+              type="text"
+              class="form__input name"
+              id="name"
+              placeholder="John Doe"
+            />
+
+            <label class="form__label" for="email">E-mail</label>
+            <input
+              type="email"
+              class="form__input email"
+              id="email"
+              placeholder="john.doe@apple.com"
+            />
+
+            <label class="form__label" for="value">How much do you need?</label>
+            <input
+              type="number"
+              class="form__input value"
+              id="value"
+              placeholder="1.000"
+            />
+            <div class="form__btn-container">
+              <button class="btn">Check your rates</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
